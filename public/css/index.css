@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+    font-weight: bold;
+}
+.navbar {
+    background: #17408b;
+    height : 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    top: 0;
+}
+.navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1300px;
+}
+#navbar__elemant{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.navbar__Sign_out{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+.navbar img{
+    width: 8rem;
+}
+.new_request{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9082a;
+    padding: 2rem;
+}
+.new_request .request{
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+.form-group-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:15px;
+}
+.form-group{
+    padding: 1px;
+}
+
+.all_requests{
+    padding: 2rem;
+}
+.all_requests .search-box {
+    position: relative;        
+    float: right;
+}
+.all_requests .search-box input {
+    height: 34px;
+    border-radius: 20px;
+    padding-left: 35px;
+    border-color: #ddd;
+    box-shadow: none;
+}
+.all_requests .search-box input:focus {
+    border-color: #3FBAE4;
+}
+.all_requests .search-box i {
+    color: #a0a5b1;
+    position: absolute;
+    font-size: 19px;
+    top: 8px;
+    left: 10px;
+}
+.all_requests td a {
+    color: #a0a5b1;
+    display: inline-block;
+    margin: 0 5px;
+}
+.all_requests td a.Check {
+    color: #03A9F4;
+}
+.all_requests td a.edit {
+    color: #FFC107;
+}
+.all_requests td a.delete {
+    color: #E34724;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+}
